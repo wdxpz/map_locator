@@ -1,3 +1,5 @@
+This project shows how to use Leaflet to get the coordinates of selected location on  a self-defined map
+
 ### how to get pixel coordinates
 
 refer [this fiddel](http://jsfiddle.net/muglio/h5st7bpt/)
