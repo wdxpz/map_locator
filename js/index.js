@@ -6,8 +6,8 @@ var map = L.map('mapid', {
   crs: L.CRS.Simple
 });
 
-var img_src = '/assets/map2.png'
-// var image = L.imageOverlay('/assets/map2.png', bounds).addTo(mymap);
+var img_src = '/assets/bj03_modified.png'
+// var image = L.imageOverlay('/bj03_modified/map2.png', bounds).addTo(mymap);
 var map_width = getImgSize(img_src)[0]
 var map_height = getImgSize(img_src)[1]
 console.log(map_width, map_height)
@@ -66,8 +66,8 @@ function onMapClick(e) {
   marker.bindPopup(pointXY.toString()).openPopup()
 }
 
-var original_pixel_x_in_map = -51.224998 //unit is meter
-var original_pixel_y_in_map = -51.224998 //unit is meter
+var original_pixel_x_in_map = -27.6 //unit is meter
+var original_pixel_y_in_map = -32.4 //unit is meter
 var pixel_resolution = 0.05 //unit is meter
 
 function pixel2MapLocation (x, y) {
